@@ -6,21 +6,21 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from AloneX import app  
 
 photo = [
-    "https://telegra.ph/file/1b819cfbcb2a2d3c738f6.jpg",
-    "https://telegra.ph/file/3021c823c7f006658682f.jpg",
-    "https://telegra.ph/file/05561f0fbf323e057ab87.jpg",
-    "https://telegra.ph/file/7a6b51ee0077724254ca7.jpg",
-    "https://telegra.ph/file/b3de9e03e5c8737ca897f.jpg",
-    "https://telegra.ph/file/0b6bb91986ef3a143033b.jpg",
-    "https://telegra.ph/file/2b5b66c9a0989afa0779a.jpg",
-    "https://telegra.ph/file/471339bb1901a007c0c2f.jpg",
-    "https://telegra.ph/file/ab7d958d707ef649bc3c3.jpg",
-    "https://telegra.ph/file/4f877f2843f31fcc32242.jpg",
-    "https://telegra.ph/file/ecefaa3e00fb911826673.jpg",
-    "https://telegra.ph/file/2a10683a2166f7cf4940b.jpg",
-    "https://telegra.ph/file/cda35ca740e1229626e48.jpg",
-    "https://telegra.ph/file/9f7186cd3d87199426e03.jpg",
-    "https://telegra.ph/file/7fe39f1baa1a93b9a3f0e.jpg",
+    "https://telegra.ph/file/8fd9c28fe4892255c0f0b.jpg",
+    "https://telegra.ph/file/338583613bb47f1cebd6d.jpg",
+    "https://telegra.ph/file/3b68802676fa0b25e7c0f.jpg",
+    "https://telegra.ph/file/717de0f92512309d618ae.jpg",
+    "https://telegra.ph/file/4ab6a94e4aef57286e8f0.jpg",
+    "https://telegra.ph/file/82ebd673870991031b4e3.jpg",
+    "https://telegra.ph/file/61f4d8fce57537a751eee.jpg",
+    "https://telegra.ph/file/e6efafb5d00c20a795b03.jpg",
+    "https://telegra.ph/file/d6ce1612e3cf51dc2a006.jpg",
+    "https://telegra.ph/file/254191c8f969bc68bc7bc.jpg",
+    "https://telegra.ph/file/4eacc8d46fe9a2ce2a4e2.jpg",
+    "https://telegra.ph/file/f7ec07013ec11e07fea58.jpg",
+    "https://telegra.ph/file/f62c320c2d79f9ad03915.jpg",
+    "https://telegra.ph/file/44068c62784b424af34ae.jpg",
+    "https://telegra.ph/file/ea84fe9f4e2793f2a1401.jpg",
     
 ]
 
