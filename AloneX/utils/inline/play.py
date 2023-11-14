@@ -14,25 +14,25 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     alone = math.floor(percentage)
     if 0 < alone <= 10:
-        bar = "⚪─────────"
+        bar = "◉—————————"
     elif 10 < alone < 20:
-        ba = "━⚪────────"
+        bar = "—◉————————"
     elif 20 <= alone < 30:
-        ba = "━━⚪───────"
+        bar = "——◉———————"
     elif 30 <= alone < 40:
-        ba = "━━━⚪──────"
+        bar = "———◉——————"
     elif 40 <= alone < 50:
-        ba = "━━━━⚪─────"
+        bar = "————◉—————"
     elif 50 <= alone < 60:
-        ba = "━━━━━⚪────"
+        bar = "—————◉————"
     elif 60 <= alone < 70:
-        ba = "━━━━━━⚪───"
+        bar = "——————◉———"
     elif 70 <= alone < 80:
-        ba = "━━━━━━━⚪──"
+        bar = "———————◉——"
     elif 80 <= alone < 95:
-        ba = "━━━━━━━━⚪─"
+        bar = "————————◉—"
     else:
-        ba = "━━━━━━━━━⚪"
+        bar = "—————————◉"
 
     buttons = [
         [
@@ -82,25 +82,25 @@ def telegram_markup_timer(_, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     alone = math.floor(percentage)
     if 0 < alone <= 10:
-        bar = "⚪─────────"
+        bar = "◉—————————"
     elif 10 < alone < 20:
-        ba = "━⚪────────"
+        bar = "—◉————————"
     elif 20 <= alone < 30:
-        ba = "━━⚪───────"
+        bar = "——◉———————"
     elif 30 <= alone < 40:
-        ba = "━━━⚪──────"
+        bar = "———◉——————"
     elif 40 <= alone < 50:
-        ba = "━━━━⚪─────"
+        bar = "————◉—————"
     elif 50 <= alone < 60:
-        ba = "━━━━━⚪────"
+        bar = "—————◉————"
     elif 60 <= alone < 70:
-        ba = "━━━━━━⚪───"
+        bar = "——————◉———"
     elif 70 <= alone < 80:
-        ba = "━━━━━━━⚪──"
+        bar = "———————◉——"
     elif 80 <= alone < 95:
-        ba = "━━━━━━━━⚪─"
+        bar = "————————◉—"
     else:
-        ba = "━━━━━━━━━⚪"
+        bar = "—————————◉"
 
     buttons = [
         [
